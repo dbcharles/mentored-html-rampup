@@ -12,6 +12,6 @@ function addSingle() {
 
 function displayText() {
     var text = single;
-    // var text = document.getElementById("takenPercentage-result");
+    var text = document.getElementById("takenPercentage-result");
     text.style.display = "block";
 }
