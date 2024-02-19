@@ -1,0 +1,79 @@
+.a {
+    font-size: 40px;
+    color: yellow;
+  }
+
+.bob{
+    text-align: center;
+    padding: 50px;
+    padding-top: 0px;
+    background-color: black;
+    width: 400px;
+    margin-left: 160px;
+    font-size: 40px;
+}
+
+.image{
+    width: 400px;
+}
+
+.link {
+    margin-bottom: 400px;
+}
+
+.listings {
+    font-size: 30px;
+}
+
+.list_title {
+    background-color: black;
+    width: 600px;
+    font-size: 50px;
+}
+
+.others {
+    margin-bottom: 100px;
+    margin-left: 60px;
+    margin-right: 0px;
+    width: 600px;
+    background-color: black;
+}
+
+.page {
+    background-color: black;
+    color: yellow;
+    font-family: "Protest Riot", sans-serif;
+    font-style: cursive;
+    font-weight: 400;
+    
+}
+
+.premeire {
+    
+}
+
+.premeire_title{
+    text-decoration: underline;
+    font-size: 70px;
+}
+
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+}
+
+.toppage{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.x{
+    font-size: 30px;
+}
