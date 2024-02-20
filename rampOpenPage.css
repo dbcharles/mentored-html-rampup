@@ -4,7 +4,10 @@
     display: flex;
     /* align-items: center; */
     justify-content: center;
-    background-color: red;
+    background-color: rgb(126, 66, 245);
+    color: white;
+    transition-duration: 0.4s;
+    padding: 15px 32px;;
 }
 
 .b1 {
@@ -14,7 +17,9 @@
     border: 2px solid white;
     border-radius: 12px;
     transition-duration: 0.4s;
-    padding: 15px 32px;;
+    padding: 15px 32px;
+    font-size: 3vh;
+    display: flex;
 }
 
 .b1:hover {
@@ -29,6 +34,8 @@
     border: 2px solid white;
     border-radius: 12px;
     padding: 15px 32px;
+    font-size: 3vh;
+    display: flex;
 }
 
 .b2:hover {
@@ -36,27 +43,78 @@
     border-color: rgb(238, 211, 55);
 }
 
+.bimage1 {
+    height: 5vh;
+    margin-left: 1vw;
+}
+
+.bimage2 {
+    height: 5vh;
+    margin-left: 1vw;
+}
+
+.buttonAndImage {
+    display: block;
+    background-color: aqua;
+}
+
 .choose {
     display: flex;
     justify-content: center;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 45px;
+    color: rgb(238, 211, 55);
+    font-size: 10vh;
 }
 
 .header {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .image_one {
-    background-color: antiquewhite;
     margin-right: 20px;
     margin-top: 55px;
 }
 
 .image_two {
-    background-color: blue;
     margin-left: 20px;
     margin-top: 55px;
 
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+}
+
+.next {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.nextButton {
+    background-color: rgb(126, 66, 245);
+    color: white;
+    border-color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    font-size: 2vh;
+    display: flex;
+    margin-right: 3vw;
+    margin-top: 3vw;
+}
+
+.nextButton:hover {
+    color: rgb(238, 211, 55);
+    border-color: rgb(238, 211, 55);
 }
 
 .page {
@@ -74,8 +132,8 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    background-color: red;
     font-size: 45px;
+    color: rgb(252, 186, 3);
 }
 
 .textfield {
@@ -84,3 +142,16 @@
 
 }
 
+.funny {
+    font-size: 3vh;
+    letter-spacing: 1vw;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: white;
+}
+
+.redirect-button {
+    color: white;
+}

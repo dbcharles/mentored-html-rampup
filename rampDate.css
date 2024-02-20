@@ -1,0 +1,46 @@
+.budget {
+    border-left: solid;
+    border-width: 1vw;
+    padding: 5vw;
+}
+
+.content {
+    border: solid;
+    border-radius: 10%;
+    border-color: #ffb7c5;
+}
+
+.eatout {
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+
+.page {
+    background-color: black;
+    color: #ffb7c5;
+}
+
+.pics {
+    display: flex;
+    flex-direction: column;
+}
+
+.romantic {
+    padding: 5vw;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.tjgummy {
+    margin-top: 5vh;
+    width: 20vw;
+}

@@ -7,11 +7,15 @@ function addSingle() {
     single ++;
     var singlePercentage = single / total;
     var takenPercentage = taken / total;
+    var text = "hi";
+    text.style.display = "block";
     return singlePercentage, takenPercentage
+    
 }
 
-function displayText() {
-    var text = single;
-    var text = document.getElementById("takenPercentage-result");
-    text.style.display = "block";
-}
+
+// function displayText() {
+    
+//     // var text = document.getElementById("takenPercentage-result");
+    
+// }

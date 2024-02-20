@@ -7,6 +7,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
         <script src="rampOpen.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
     </head>
     <body class = "page">
         <div class="header">
@@ -20,16 +23,26 @@
                 <img src="heart.png" height="200">
             </div>
         </div>
-            <h6>For all of the hopless romantics...</h6>
+        <div class="message">
+            <h3 class="funny">For all of the hopless romantics...</h3>
+        </div>
+            <!--
             <p>While valentines day is a holiday that makes 50% of the world puke, it should 
                 be an excuse for 100% of the world to go do something fun. Coming up I will present 
                 a few options you could consider for V-day 2024.
             </p>
+            -->
             <h2 class="choose">Choose your side!</h3>
-            <h3 class="question">Relationship Status?</h3>
             <div class="buttons">
-                <button class="b1" onclick="addSingle(); displayText();"> Taken </button>
-                <button class="b2"> Single </button>
+                    <button class="b1" onclick="addSingle()"> Taken
+                        <img class = bimage2 src="heart copy.png">
+                    </button>
+                <button class="b2"> Single
+                    <img class = bimage1 src="broken-heart.png">
+                </button>
+            </div>
+            <div class="next">
+                <a href="rampBouquetPage.html" class="redirect-button">Next</a>
             </div>
         
             <!--When they press single display message,-->
