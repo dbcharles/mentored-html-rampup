@@ -3,19 +3,22 @@ var single = 0;
 var taken = 0;
 
 function addSingle() {
-    total ++;
-    single ++;
-    var singlePercentage = single / total;
-    var takenPercentage = taken / total;
-    var text = "hi";
-    text.style.display = "block";
-    return singlePercentage, takenPercentage
-    
+    total++;
+    single++;
+    displayText();
 }
 
+function addTaken() {
+    total++;
+    taken++;
+    displayText();
+}
 
-// function displayText() {
+function displayText() {
+    var singlePercentage = (single / total) * 100;
+    var takenPercentage = (taken / total) * 100;
     
-//     // var text = document.getElementById("takenPercentage-result");
-    
-// }
+    // Ensure to round the percentages to make them more readable
+    document.getElementById("singlePercentage").innerText = singlePercentage.toFixed(2);
+    document.getElementById("takenPercentage").innerText = takenPercentage.toFixed(2);
+}

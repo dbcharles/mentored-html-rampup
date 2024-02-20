@@ -34,12 +34,16 @@
             -->
             <h2 class="choose">Choose your side!</h3>
             <div class="buttons">
-                    <button class="b1" onclick="addSingle()"> Taken
+                <button id="takenBtn" class="b1" onclick="addTaken();"> Taken
                         <img class = bimage2 src="heart copy.png">
                     </button>
-                <button class="b2"> Single
+                    <button id="singleBtn" class = "b2" onclick="addSingle();"> Single
                     <img class = bimage1 src="broken-heart.png">
                 </button>
+            </div>
+            <div class="results">
+                <p>Taken Percentage: <span id="takenPercentage">0</span>%</p>
+                <p>Single Percentage: <span id="singlePercentage">0</span>%</p>
             </div>
             <div class="next">
                 <a href="rampBouquetPage.html" class="redirect-button">Next</a>
